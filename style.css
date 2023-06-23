@@ -96,36 +96,35 @@ span {
 }
 
 footer {
-    color: var(--slightly-white-stat-headings);
-    margin-top: 16px;
+  color: var(--slightly-white-stat-headings);
+  margin-top: 16px;
 }
 
 @media (min-width: 1100px) {
-    .stat-container {
-        flex-direction: row;
-        flex-flow: row-reverse;
-        padding: 96px;
-        max-width:90%;
-    }
-    .img-div {
-        min-width: 50%;
-        border-radius: 0 8px 8px 0;
-    }
-    [src="images/image-header-mobile.jpg"] {
-      border-radius: 0px 8px 8px 0px;
-      width: 100%;
-      height: 100%;
-    }
-    
-  .details-div {
-    border-radius: 8px 0 0 8px;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 48px;
-    min-width: 50%;
+  .stat-container {
+    flex-direction: row;
+    flex-flow: row-reverse;
+    padding: 96px;
+    max-width: 90%;
   }
-  .details-div h1
-   {
+  .img-div {
+    min-width: 50%;
+    border-radius: 0 8px 8px 0;
+  }
+  [src="images/image-header-mobile.jpg"] {
+    border-radius: 0px 8px 8px 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .details-div {
+    align-items: center;
+    border-radius: 8px 0 0 8px;
+    justify-content: center;
+    min-width: 50%;
+    padding: 0px 48px;
+  }
+  .details-div h1 {
     align-self: start;
     text-align: left;
     width: 350px;
@@ -138,9 +137,7 @@ footer {
     align-self: start;
   }
 
-
-
-.stat-div {
+  .stat-div {
     flex-direction: row;
     align-self: self-start;
     gap: 72px;
